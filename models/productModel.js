@@ -25,7 +25,7 @@ const productSchema = new Schema({
     rating: {
         type: Number,
         required: true,
-    },
+    },  
 }, { timestamps: true })
 
-module.exports = mongoose.model('product',productSchema)
+module.exports = mongoose.model('Product',productSchema)
